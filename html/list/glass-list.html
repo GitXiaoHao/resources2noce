@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>玻璃集合</title>
+    <link rel="stylesheet" href="../../css/glass-list.css">
+</head>
+<body>
+<div class="container">
+    <div class="card">
+        <div class="content">
+            <h2>01</h2>
+            <h3>Card One</h3>
+            <p>Realistic glass card hover effect, realistic glass card hover effect, realistic glass card hover effect.</p>
+            <a href="#">Read More</a>
+        </div>
+    </div>
+    <div class="card">
+        <div class="content">
+            <h2>02</h2>
+            <h3>Card Two</h3>
+            <p>Realistic glass card hover effect, realistic glass card hover effect, realistic glass card hover effect.</p>
+            <a href="#">Read More</a>
+        </div>
+    </div>
+    <div class="card">
+        <div class="content">
+            <h2>03</h2>
+            <h3>Card Three</h3>
+            <p>Realistic glass card hover effect, realistic glass card hover effect, realistic glass card hover effect, realistic glass card hover effect.</p>
+            <a href="#">Read More</a>
+        </div>
+    </div>
+</div>
+<!-- 1. 引入vue -->
+<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+<!-- 2. 引入样式 -->
+<link rel="stylesheet" href="https://unpkg.com/element-ui/lib/theme-chalk/index.css">
+<!-- 3. 引入组件库 -->
+<script src="https://unpkg.com/element-ui/lib/index.js"></script>
+<script src="../../js/jquery-3.6.1.min.js"></script>
+<script src="../../js/EasyLazyload.min.js"></script>
+<script src="../../js/include.js"></script>
+<script src="../../js/vanilla-tilt.js"></script>
+<script>
+    // vanilla-tilt.js是一个平滑的3D倾斜JS库，具体参数配置度娘可查到
+    VanillaTilt.init(document.querySelectorAll(".card"),{
+        max: 15,  //最大倾斜度数
+        speed: 400,  //倾斜转换的速度
+        glare: true,  //是否开启眩光效果
+        "max-glare": 1  //最大眩光的不透明度
+    })
+</script>
+</body>
+</html>

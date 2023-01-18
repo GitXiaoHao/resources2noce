@@ -2,17 +2,79 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>介绍</title>
+    <title>list介绍</title>
+    <link rel="stylesheet" href="http://jrain.oscitas.netdna-cdn.com/tutorial/css/fontawesome-all.min.css">
+    <link href="https://cdn.bootcss.com/twitter-bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+    <link href="../../css/readme.css" rel="stylesheet">
 </head>
 <body>
-<h1>本目录是结合H5 css js vue jquery element-UI样式进行的卡片展示，用于列表展示</h1>
-<h2>在每个页面下都包含了右上角的菜单按钮和右下角的回到顶部按钮 详情请看menu目录下的 readme文件</h2>
-<h3>页面介绍</h3>
-<ul>
-  <li >
+<div class="htmleaf-container" id="root">
+    <header class="htmleaf-header">
+        <h1>{{theme.name}}<span>{{theme.intro}}</span></h1>
+        <div class="htmleaf-links">
+            <a class="htmleaf-icon icon-htmleaf-home-outline" href="#" title="主页"
+               target="_blank"><span>主页</span></a>
+            <a class="htmleaf-icon icon-htmleaf-arrow-forward-outline" href="#" title="返回"
+               target="_blank"><span> 返回</span></a>
+        </div>
+    </header>
+    <div class="demo">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-offset-3 col-md-6">
+                    <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+                        <ul>
+                            <li v-for="resource in resources" :key="resource.id">
+                                <div class="panel panel-default">
+                                    <div class="panel-heading" role="tab" :id="heading + resource.styleId">
+                                        <h4 class="panel-title">
+                                            <a role="button" data-toggle="collapse" data-parent="#accordion"
+                                               :href="'#' + collapse + resource.styleId" aria-expanded="true" :aria-controls="collapse + resource.styleId">
+                                                {{resource.name}}
+                                            </a>
+                                        </h4>
+                                    </div>
+                                    <div :id="collapse + resource.styleId" class="panel-collapse collapse in" role="tabpanel"
+                                         :aria-labelledby="heading + resource.styleId">
+                                        <div class="panel-body">
+                                            <p>{{resource.intro}}</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
 
-  </li>
-</ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+<script src="../../js/jquery-3.6.1.min.js" type="text/javascript"></script>
+<script src="https://cdn.bootcss.com/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
 
+<script>
+
+    new Vue({
+        el: '#root',
+        data: {
+            heading:"heading",
+            collapse:"collapse",
+            theme: {
+                name: "list",
+                intro: "本目录是结合H5 css js vue jquery element-UI样式进行的卡片展示，用于列表展示"
+            },
+            resources: [
+                {id: 1, name: "accordion-list", intro: "手风琴集合 - 用于纯文字的介绍，也正是readme文件所用的样式", styleId:"One"},
+                {id: 2, name: "backGround-luminescence", intro: "背景发光 - 以卡片为主体，在鼠标没有进入的时候背景边框会发光，卡片里可以放图片或者文字", styleId:"Two"},
+                {id: 3, name: "card-stop", intro: "卡片悬停 - ", styleId:"Three"},
+                {id: 4, name: "page", intro: "页 - 用于用户选择所进入哪一个专栏", styleId:"Four"},
+                {id: 5, name: "particle", intro: "粒子 - 用于效果展示，只适合花里胡哨，不适合信息展示", styleId:"Five"},
+                {id: 6, name: "particle", intro: "粒子 - 用于效果展示，只适合花里胡哨，不适合信息展示", styleId:"Five"},
+            ]
+        }
+    });
+</script>
 </body>
 </html>

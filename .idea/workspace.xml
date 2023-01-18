@@ -1,27 +1,59 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0b57e12d-a38d-4340-a3b0-7e5258ab6059" name="变更" comment="" />
+    <list default="true" id="0b57e12d-a38d-4340-a3b0-7e5258ab6059" name="变更" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/accordion-list.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/glass-list.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/list/accordion-list.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/list/glass-list.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/project.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/project.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/menu.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/menu.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/readme.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/readme.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/list/backGround-luminescence.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/list/backGround-luminescence.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/list/card-stop.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/list/card-stop.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/list/readme.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/list/readme.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/menu/menu.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/menu/menu.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/readme.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/readme.html" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="CSS File" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
   <component name="ProjectId" id="2KUyfXUXLwkeTtMErasX5DKjAi5" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "DefaultHtmlFileTemplate": "HTML File",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
     "last_opened_file_path": "E:/HaoCode/HTML/project",
+    "list.type.of.created.stylesheet": "CSS",
     "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings",
     "vue.rearranger.settings.migration": "true"
   }
@@ -34,7 +66,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1674043559808</updated>
-      <workItem from="1674043561827" duration="455000" />
+      <workItem from="1674043561827" duration="10431000" />
     </task>
     <servers />
   </component>

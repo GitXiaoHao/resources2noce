@@ -8,9 +8,7 @@
     font-weight: normal;
     font-style: normal;
 }
-ul{
-    list-style: none;
-}
+
 [class^="icon-"], [class*=" icon-"] {
     font-family: 'icomoon';
     speak: none;
