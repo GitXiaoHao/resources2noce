@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>html目录介绍</title>
+    <link href="../css/readme.css" rel="stylesheet">
+</head>
+<body>
+<div class="container">
+    <div class="card">
+        <div class="content">
+            <p>本目录是所有页面的开端，每一个目录都对应着不同的风格</p>
+        </div>
+    </div>
+</div>
+<div id="root">
+
+    <ul>
+        <li v-for="resource in resources" :key="resource.id">
+            <div class="container">
+                <div class="card">
+                    <div class="content">
+                        <h2>{{key}}</h2>
+                        <h3>{{resource.name}}</h3>
+                        <p>{{resource.intro}}</p>
+                    </div>
+                </div>
+            </div>
+        </li>
+    </ul>
+
+
+</div>
+</body>
+<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+<script src="../js/vanilla-tilt.js"></script>
+<script>
+
+</script>
+<script>
+    // vanilla-tilt.js是一个平滑的3D倾斜JS库，具体参数配置度娘可查到
+    VanillaTilt.init(document.querySelectorAll(".card"),{
+        max: 15,  //最大倾斜度数
+        speed: 400,  //倾斜转换的速度
+        glare: true,  //是否开启眩光效果
+        "max-glare": 1  //最大眩光的不透明度
+    })
+    new Vue({
+        el: '#root',
+        data: {
+            resources: [
+                {
+                    id: 1,
+                    name: "introduce",
+                    intro: "介绍 - 专门为每一个专栏进行统一介绍，就是每一个目录里面的页面用图片进行展示，用户可以直接进行选择"
+                },
+                {id: 2, name: "list", intro: "集合 - 用于对数据的展示，主要是利用css进行卡片的效果展示"},
+                {id: 3, name: "login", intro: "登陆 - 登陆页面与注册页面"},
+                {id: 4, name: "menu", intro: "菜单 - 有右上角的菜单栏和右下角的回到顶部"},
+                {id: 5, name: "page", intro: "页 - 用于用户选择所进入哪一个专栏"},
+                {id: 6, name: "particle", intro: "粒子 - 用于效果展示，只适合花里胡哨，不适合信息展示"},
+            ]
+        }
+    });
+</script>
+</html>

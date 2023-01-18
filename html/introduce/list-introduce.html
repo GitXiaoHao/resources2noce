@@ -1,0 +1,154 @@
+<!doctype html>
+<html lang="zh">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>轮播图</title>
+  <link rel="stylesheet" href="../../css/normalize.css">
+  <link rel="stylesheet" type="text/css" href="../../css/default.css">
+  <!--[if IE]>
+  <script src="http://libs.useso.com/js/html5shiv/3.7/html5shiv.min.js"></script>
+  <![endif]-->
+</head>
+
+<style>
+  body{
+    /* 渐变背景 */
+    background: linear-gradient(200deg,#ec77ab,#7873f5);
+  }
+  #gallery-wrapper {
+    position: relative;
+    max-width: 75%;
+    width: 75%;
+    margin:50px auto;
+  }
+  img.thumb {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+  }
+  .card {
+    position: absolute;
+    background: white;
+    border-radius: 5px;
+    box-shadow: 0 1px 2px rgba(0,0,0,0.3);
+    padding: 10px;
+  }
+  .card h1 {
+    font-size: 1em;
+  }
+  .card h1 a {
+    color: #A92733;
+  }
+  .card:hover {
+    box-shadow: 1px 1px 10px rgba(0,0,0,0.5);
+    margin-top: -5px;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+  }
+</style>
+<body>
+<section id="gallery-wrapper">
+  <article class="card">
+    <img data-lazy-src="../../img/text-list-introduce/1.jpg" class="thumb">
+    <h1><a href="#">Title 1</a></h1>
+    <p>Description 1</p>
+  </article>
+  <article class="card">
+    <img data-lazy-src="../../img/text-list-introduce/2.jpg" class="thumb">
+    <h1><a href="#">Title 2</a></h1>
+    <p>Description 2</p>
+  </article>
+  <article class="card">
+    <img data-lazy-src="../../img/text-list-introduce/3.jpg" class="thumb">
+    <h1><a href="#">Title 3</a></h1>
+    <p>Description 3</p>
+  </article>
+  <article class="card">
+    <img data-lazy-src="../../img/text-list-introduce/4.jpg" class="thumb">
+    <h1><a href="#">Title 4</a></h1>
+    <p>Description 4</p>
+  </article>
+  <article class="card">
+    <img data-lazy-src="../../img/text-list-introduce/5.jpg" class="thumb">
+    <h1><a href="#">Title 5</a></h1>
+    <p>Description 5</p>
+  </article>
+  <article class="card">
+    <img data-lazy-src="../../img/text-list-introduce/6.jpg" class="thumb">
+    <h1><a href="#">Title 6</a></h1>
+    <p>Description 6</p>
+  </article>
+  <article class="card">
+    <img data-lazy-src="../../img/text-list-introduce/7.jpg" class="thumb">
+    <h1><a href="#">Title 7</a></h1>
+    <p>Description 7</p>
+  </article>
+  <article class="card">
+    <img data-lazy-src="../../img/text-list-introduce/8.jpg" class="thumb">
+    <h1><a href="#">Title 8</a></h1>
+    <p>Description 8</p>
+  </article>
+  <article class="card">
+    <img data-lazy-src="../../img/text-list-introduce/9.jpg" class="thumb">
+    <h1><a href="#">Title 9</a></h1>
+    <p>Description 9</p>
+  </article>
+  <article class="card">
+    <img data-lazy-src="../../img/text-list-introduce/10.jpg" class="thumb">
+    <h1><a href="#">Title 10</a></h1>
+    <p>Description 10</p>
+  </article>
+  <article class="card">
+    <img data-lazy-src="../../img/text-list-introduce/11.jpg" class="thumb">
+    <h1><a href="#">Title 11</a></h1>
+    <p>Description 11</p>
+  </article>
+  <article class="card">
+    <img data-lazy-src="../../img/text-list-introduce/12.jpg" class="thumb">
+    <h1><a href="#">Title 12</a></h1>
+    <p>Description 12</p>
+  </article>
+  <article class="card">
+    <img data-lazy-src="../../img/text-list-introduce/13.jpg" class="thumb">
+    <h1><a href="#">Title 13</a></h1>
+    <p>Description 13</p>
+  </article>
+  <article class="card">
+    <img data-lazy-src="../../img/text-list-introduce/14.jpg" class="thumb">
+    <h1><a href="#">Title 14</a></h1>
+    <p>Description 14</p>
+  </article>
+  <article class="card">
+    <img data-lazy-src="../../img/text-list-introduce/15.jpg" class="thumb">
+    <h1><a href="#">Title 15</a></h1>
+    <p>Description 15</p>
+  </article>
+</section>
+<script src="../../js/jquery-3.6.1.min.js"></script>
+<script src="../../js/pinterest_grid.js"></script>
+<script src="../../js/EasyLazyload.min.js"></script>
+<!-- 1. 引入vue -->
+<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+<!-- 2. 引入样式 -->
+<link rel="stylesheet" href="https://unpkg.com/element-ui/lib/theme-chalk/index.css">
+<!-- 3. 引入组件库 -->
+<script src="https://unpkg.com/element-ui/lib/index.js"></script>
+<script src="../../js/include.js"></script>
+<script type="text/javascript">
+  //瀑布流
+  $(function(){
+    $("#gallery-wrapper").pinterest_grid({
+      no_columns: 4,
+      padding_x: 10,
+      padding_y: 10,
+      margin_bottom: 50,
+      single_column_breakpoint: 700
+    });
+  });
+</script>
+</body>
+</html>
