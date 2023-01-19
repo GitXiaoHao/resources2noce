@@ -1,21 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0b57e12d-a38d-4340-a3b0-7e5258ab6059" name="变更" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css/accordion-list.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css/glass-list.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/html/list/accordion-list.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/html/list/glass-list.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/project.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/project.iml" afterDir="false" />
+    <list default="true" id="0b57e12d-a38d-4340-a3b0-7e5258ab6059" name="变更" comment="更新2">
+      <change afterPath="$PROJECT_DIR$/css/other/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/other/element-ui.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/other/bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/other/element-ui.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/other/vue.min.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/menu.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/menu.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/readme.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/readme.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/introduce/list-introduce.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/introduce/list-introduce.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/list/accordion-list.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/list/accordion-list.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/html/list/backGround-luminescence.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/list/backGround-luminescence.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/html/list/card-stop.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/list/card-stop.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/list/glass-list.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/list/glass-list.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/list/piratesList.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/list/piratesList.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/html/list/readme.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/list/readme.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/menu/menu.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/menu/menu.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/login/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/login/login.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/page/page.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/page/page.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/particle/trilinear-particle.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/particle/trilinear-particle.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/html/readme.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/readme.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/EasyLazyload.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/other/EasyLazyload.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/jquery-3.6.1.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/other/jquery-3.6.1.min.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,6 +33,7 @@
       <list>
         <option value="HTML File" />
         <option value="CSS File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -52,12 +59,21 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "E:/HaoCode/HTML/project",
+    "last_opened_file_path": "E:/HaoCode/HTML/project/css/other",
     "list.type.of.created.stylesheet": "CSS",
     "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\HaoCode\HTML\project\css\other" />
+      <recent name="E:\HaoCode\HTML\project\js\other" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\HaoCode\HTML\project\js\other" />
+    </key>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="应用程序级" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="默认任务">
@@ -66,8 +82,18 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1674043559808</updated>
-      <workItem from="1674043561827" duration="10431000" />
+      <workItem from="1674043561827" duration="10897000" />
+      <workItem from="1674108607447" duration="1273000" />
+      <workItem from="1674133201952" duration="3976000" />
     </task>
+    <task id="LOCAL-00001" summary="更新2">
+      <created>1674054268019</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1674054268019</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -88,5 +114,7 @@
     <ignored-roots>
       <path value="$PROJECT_DIR$" />
     </ignored-roots>
+    <MESSAGE value="更新2" />
+    <option name="LAST_COMMIT_MESSAGE" value="更新2" />
   </component>
 </project>
